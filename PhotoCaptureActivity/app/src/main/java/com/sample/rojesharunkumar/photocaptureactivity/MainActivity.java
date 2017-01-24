@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
 
-            startActivityForResult(takePictureIntent, 100);
+            startActivityForResult(takePictureIntent, 100); // 100 is a Request code
         }
 
 
